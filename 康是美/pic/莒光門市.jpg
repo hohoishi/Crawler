@@ -1,0 +1,742 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="apple-touch-icon" sizes="180*180" href="/images/logo_1.png" />
+
+    <!-- viewport -->
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="format-detection" content="telephone=no" /><title>
+	Welcome to 康是美
+</title>
+
+		
+		<!-- icon font -->
+		<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" /><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+		
+		<!-- jQuery       -->
+		
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<script src="js/jquery-migrate-1.4.1.min.js"></script>
+		
+		<!-- js pluging -->
+		<script src="js/lib/checkDevice.js"></script>
+		<script src="js/lib/enquire/enquire.min.js"></script>
+		<script src="js/lib/velocity/velocity.min.js"></script>
+		<script src="js/lib/velocity/velocity.ui.min.js"></script>
+		<link rel="stylesheet" href="js/lib/slick/slick.css" />
+		<script src="js/lib/slick/slick.min.js"></script>
+
+		<!-- custom css -->
+		<link rel="stylesheet" href="css/style.css" />
+		
+		<!-- custom js -->
+		<script src="js/script.js"></script>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<xscript async src="https://www.googletagmanager.com/gtag/js?id=UA-31105591-1"></xscript>
+		<script>
+		    //window.dataLayer = window.dataLayer || [];
+		    //function gtag() { dataLayer.push(arguments); }
+		    //gtag('js', new Date());
+
+		    //gtag('config', 'UA-31105591-1');
+		</script>
+
+        <!-- Google tag (gtag.js) --> 
+        <script async src=https://www.googletagmanager.com/gtag/js?id=G-FG58X1MFTQ></script> 
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'G-FG58X1MFTQ');
+
+        </script>
+
+		<!-- Facebook Pixel Code -->
+		<script>
+		    !function (f, b, e, v, n, t, s) {
+		        if (f.fbq) return; n = f.fbq = function () {
+		            n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+		        };
+		        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+		        n.queue = []; t = b.createElement(e); t.async = !0;
+		        t.src = v; s = b.getElementsByTagName(e)[0];
+		        s.parentNode.insertBefore(t, s)
+		    }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+		    fbq('init', '2034041220184815');
+		    fbq('track', 'PageView');
+		</script>
+		<noscript><img height="1" width="1" style="display:none"
+		  src="https://www.facebook.com/tr?id=2034041220184815&ev=PageView&noscript=1"
+		/></noscript>
+		<!-- End Facebook Pixel Code -->
+		
+		<!-- Facebook Pixel Code 2020/3/9 -->
+		<script>
+		  !function(f,b,e,v,n,t,s)
+		  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		  n.queue=[];t=b.createElement(e);t.async=!0;
+		  t.src=v;s=b.getElementsByTagName(e)[0];
+		  s.parentNode.insertBefore(t,s)}(window, document,'script',
+		  'https://connect.facebook.net/en_US/fbevents.js');
+		  fbq('init', '297972880579027');
+		  fbq('track', 'PageView');
+		</script>
+		<noscript><img height="1" width="1" style="display:none"
+		  src="https://www.facebook.com/tr?id=297972880579027&ev=PageView&noscript=1"
+		/></noscript>
+		<!-- End Facebook Pixel Code -->
+		
+
+		<!-- Global site tag (gtag.js) - Google Ads: 852403069 -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-852403069"></script>
+		<script>
+		    window.dataLayer = window.dataLayer || [];
+		    function gtag() { dataLayer.push(arguments); }
+		    gtag('js', new Date());
+
+		    gtag('config', 'AW-852403069');
+		</script>
+
+		<!-- PPMP -->
+		<!-- 
+		Start of global snippet: Please do not remove
+		Place this snippet between the <head> and </head> tags on every page of your site.
+		-->
+		<!-- Global site tag (gtag.js) - Google Marketing Platform -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=DC-8603568"></script>
+		<script>
+		    window.dataLayer = window.dataLayer || [];
+		    function gtag() { dataLayer.push(arguments); }
+		    gtag('js', new Date());
+
+		    gtag('config', 'DC-8603568');
+		</script>
+		<!-- End of global snippet: Please do not remove -->
+		<!--
+		Event snippet for 再行銷 on : Please do not remove.
+		Place this snippet on pages with events you’re tracking. 
+		Creation date: 03/15/2019
+		-->
+		<script>
+		    gtag('event', 'conversion', {
+		        'allow_custom_scripts': true,
+		        'u1': '[HOME]',
+		        'send_to': 'DC-8603568/invmedia/ayddh0+standard'
+		    });
+		</script>
+		<noscript>
+		<img src="https://ad.doubleclick.net/ddm/activity/src=8603568;type=invmedia;cat=ayddh0;u1=[SITE];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=1?" width="1" height="1" alt=""/>
+		</noscript>
+		<!-- End of event snippet: Please do not remove -->
+
+		<!-- PRESCO聯播網 -->
+		<script src="https://presco.now-tracking.com/tracker/event/trackeventv3.js"></script>
+
+		<!-- YAHOO -->
+		<script type="application/javascript">(function (w, d, t, r, u) { w[u] = w[u] || []; w[u].push({ 'projectId': '10000', 'properties': { 'pixelId': '416665' } }); var s = d.createElement(t); s.src = r; s.async = true; s.onload = s.onreadystatechange = function () { var y, rs = this.readyState, c = w[u]; if (rs && rs != "complete" && rs != "loaded") { return } try { y = YAHOO.ywa.I13N.fireBeacon; w[u] = []; w[u].push = function (p) { y([p]) }; y(c) } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr) })(window, document, "script", "https://s.yimg.com/wi/ytc.js", "dotq");</script>
+
+		<!-- Pixnet -->
+		<script>
+		    var _piq = _piq || [];
+		    _piq.push(
+                ['setCustomVar', 'venue', 'cosmed'],
+                ['setCustomVar', 'visitor_id', ''],
+                ['setCustomVar', 'label', ''],
+                ['trackPageView'],
+                ['trackPageClick']
+            );
+		    (function (d, t, u, f, j) {
+		        f = d.getElementsByTagName(t)[0];
+		        j = d.createElement(t);
+		        j.async = 1;
+		        j.src = u;
+		        f.parentNode.insertBefore(j, f);
+		    })(document, 'script', 'https://s.pixanalytics.com/js/pi.min.js');
+		</script>
+
+		<!-- GOOGLE -->
+		<!-- Global site tag (gtag.js) - Google Ads: 795613016 -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-795613016"></script>
+		<script>
+		    window.dataLayer = window.dataLayer || [];
+		    function gtag() { dataLayer.push(arguments); }
+		    gtag('js', new Date());
+
+		    gtag('config', 'AW-795613016');
+		</script>
+
+
+        <!-- Global site tag (gtag.js) - Google Analytics for cosmed -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-31105591-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-31105591-1');
+    </script>
+
+
+	
+		<!-- 解決IE7~8看不懂html5的標籤 -->
+		<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js">
+		</script>
+		<![endif]-->
+
+        <script>
+            //gtm log event
+            function logEvent(event, category, label) {
+                
+                if (typeof dataLayer != 'undefined') {
+                    //alert('log');
+                    gtag('event', event, {
+                        'event_category': category,
+                        'event_label': label
+                    });
+                }
+
+            }
+        </script>
+
+
+    <script>
+        var catData = "";
+        $(document).ready(function () {
+            $.ajax({
+                url: "/api/getCategory.aspx",
+                success: function (resp) {
+                    if (resp.result == "OK") {
+                        r = resp.data;
+                        catData = r;
+                        var s = Math.ceil((r.length / 3.0));
+                        s = 9;
+                        var h = "";
+                        var h2 = "";
+                        var c = 0;
+                        for (i = 0; i < 3; i++) {
+                            h += '<ul class="submenu_l2" id="menuColumn_' + (i + 1) + '">\n';
+                        
+                            for (j = 0; j < s; j++) {
+                                if (i * s + j < r.length) {
+                                    var menu = r[i * s + j];
+                                    if (menu.ChildList.length > 0) {
+                                        h += '<li class="hassubmenu"><a href="#here" menuid="' + (i*s+j) + '" >' + menu.Name + '</a></li>\n';
+                                    } else {
+                                        h += '<li ><a href="http://shop.cosmed.com.tw/v2/official/SalePageCategory/' + menu.id + '" target="_blank">' + menu.Name + '</a></li>\n';
+                                    }
+                                }
+                            }
+                            h += "</ul>\n"
+                        
+                        }
+                        $("#menu_lv1").html(h);
+
+                        for (i = 0; i < r.length; i++) {
+                            menu = r[i];
+                            if (menu.ChildList.length > 0) {
+                                h2 += '<li class="hassubmenu"><a href="#here"  >' + menu.Name + '</a>';
+                                h2 += '<ul class="mainmenu_dropmenu_l3">';
+                                for (j = 0; j < menu.ChildList.length; j++) {
+                                    h2 += '<li ><a href="http://shop.cosmed.com.tw/v2/official/SalePageCategory/' + menu.ChildList[j].id + '">' + menu.ChildList[j].Name + '</a></li>\n';
+                                }
+                                h2 += "</ul>";
+                                h2 += "</li>\n"
+                            } else {
+                                h2 += '<li ><a href="http://shop.cosmed.com.tw/v2/official/SalePageCategory/' + menu.id + '">' + menu.Name + '</a></li>\n';
+                            }
+                        }
+                        $(".mainmenu_dropmenu-block li:nth-child(2) .mainmenu_dropmenu_l2").html(h2);
+
+                        $(".mainmenu_dropmenu_l2").hide();
+                        bindMenuEvent();
+                    }
+                },
+		error: function() { console.log("get category failed");}
+            });
+
+
+        });
+
+
+    </script>
+
+
+    <script>
+        //fb init
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '366381190626673',
+                autoLogAppEvents: true,
+                xfbml: true,
+                version: 'v2.11'
+            });
+
+            window.fbApiInit = true; //init flag
+            if (window.thisFunctionIsCalledAfterFbInit)
+                window.thisFunctionIsCalledAfterFbInit();
+        };
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) { return; }
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+        /*
+      function fbEnsureInit(callback) {
+          if (!window.fbApiInit) {
+              window.thisFunctionIsCalledAfterFbInit = callback; //find this in index.html
+          }
+          else {
+              callback();
+          }
+      }
+
+      fbEnsureInit(setMessengerIcon());
+      */
+        var tm;
+        function setMessengerIcon() {
+            //alert($(".fb_customer_chat_bubble_pop_in"));
+            //console.log($(".fb_customer_chat_bubble_pop_in").length > 0);
+            if ($(".fb_customer_chat_bubble_pop_in").length > 0) {
+                $(".fb_customer_chat_bubble_pop_in").css("bottom", "4px").css("right", "4px").css("transform", "scale(0.7,0.7)");
+                window.clearInterval(tm);
+            }
+        }
+
+        if ($(window).width() < 600) {
+            tm = window.setInterval(setMessengerIcon, 500);
+            //tm = window.setTimeout(setMessengerIcon, 6000);
+        }
+
+
+    </script>
+
+    <link rel="icon" href="https://www.cosmed.com.tw/favicon.ico?v=2" />
+    	<!-- custom css -->
+		<link rel="stylesheet" href="css/style-index.css">
+		
+		<!-- custom js -->
+		<script src="js/script-index.js"></script>
+
+        <!-- PRESCO聯播網 -->
+        <script>trackAdEvent('cosmedlanding','cosmed ','cosmedlanding');</script>
+		
+        
+<meta name="description" content="LOVE MOM、全店不限金額88折，週週好給利、天天都划算，Cosmed、Your True Colors 彩妝/配件$499送$50，全店指定商品、滿$1,000送$100，滿$3,000送$400，單筆消費滿$520、OPENPOINT點數10倍送，臉部保養滿$1000送$200，醫美指定防曬滿$500送$50，消費滿$388即可加購蠟筆小新，iPhone 15、iPhone 15 Plus、iphone 15 pro max、iphone se、air pods、apple watch，時代百貨熱銷國際精品包、專櫃化妝品、3C家電、健身、居家生活，異國零食瘋、棉織好物、超值加購，甜點、餅乾、零食、飲料，趕快來康是美！提供您醫美、美妝保養、保健、生活用品等上千款商品，週週新品，行動購物24hr不打烊，網路首購再送100！" /><meta name="keywords" content="康是美、COSMED、康是美網購、eShop、網路購物、網路商店、藥妝、保健、保養、美妝、彩妝、洗髮精、清潔用品、醫美、開架保養、開架彩妝、面膜、買1送1、康是美會員點數、康是美獨家、COSMED TAIWAN、康是美門市、康是美DM、康是美官網、康是美官網公告、康是美營業時間、LOVE MOM、全店不限金額88折，週週好給利、天天都划算，Cosmed、Your True Colors 彩妝/配件$499送$50，全店指定商品、滿$1,000送$100，滿$3,000送$400，單筆消費滿$520、OPENPOINT點數10倍送，臉部保養滿$1000送$200，醫美指定防曬滿$500送$50，消費滿$388即可加購蠟筆小新，iPhone 15、iPhone 15 Plus、iphone 15 pro max、iphone se、air pods、apple watch，時代百貨熱銷國際精品包、專櫃化妝品、3C家電、健身、居家生活，異國零食瘋、棉織好物、超值加購，甜點、餅乾、零食、飲料、口罩、醫療用口罩、兒童口罩、SNOOPY兒童口罩、南六醫用口罩、美德手術防護口罩、中衛口罩、恒大口罩、3M" /></head>
+<body>
+<div style="display:none;"><img src="/images/app_member.png" ></div>
+<!-- header -->
+		<header>
+			<!-- app download -->
+			<section class="appdownload-container" style="display:none;">
+				<ul>
+					<li><a href="" target="_blank"><img src="images/appdownload_01.gif" alt=""></a></li>
+					<li><a href="" target="_blank"><img src="images/appdownload_02.gif" alt=""></a></li>
+					<li><div class="close"></div></li>
+				</ul>
+			</section>
+
+			<div class="header-container">
+				<div class="header-box">
+					<h1><a href="/index.aspx">康是美</a></h1>
+					<div class="topnav-box">
+						<form class="search-block">
+							<input type="text" name="kw" placeholder="搜尋" />
+							<button class="btn_search" onclick='logEvent("click", "header", "Search");window.open("http://shop.cosmed.com.tw/v2/Search?shopId=2131&q=%22" +  this.form.kw.value + "%22"); return(false);' ><i class="fas fa-search"></i></button>
+						</form>
+						<ul class="topnav-block">
+							<li><a href="shop.aspx">門市查詢</a></li>
+							<li>
+								<a href="" class="member">會員專區</a>
+								<ul class="topnav_submenu">
+									<li><a href="https://card.cosmed.com.tw/COSMEDWEB/Account/Login?ReturnUrl=%2FCOSMEDWEB%2F" target="_blank">會員登入</a></li>
+									<li><a href="news.aspx?c=2">最新活動</a></li>
+									<li><a href="welfare.aspx">會員優惠</a></li>
+								</ul>
+							</li>
+							<li><a href="https://goo.gl/EmkgTi" target="_blank">康是美網購</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- 手機版搜尋bar -->
+				<form class="search-block mobile">
+					<input type="text" name="kw" placeholder="搜尋" />
+					<button class="btn_search" onclick="logEvent('click', 'header', 'Search');window.open('http://shop.cosmed.com.tw/v2/Search?shopId=2131&q=%22' + this.form.kw.value + '%22'); return(false);"><i class="fas fa-search"></i></button>
+				</form>
+               
+
+                
+				<!-- 手機版選單 -->
+				<div class="mainmenu--mobile-box" >	
+					<!-- 漢堡 -->
+					<div class="navToggle navToggle02"><span></span></div>
+					<!-- 左右拖曳快捷主選單 -->
+					<div class="mainmenu--mobile-block">
+                        
+						<ul id="_ctrl_0_ulMobileMenu" class="mainmenu--mobile">							<li><a href="#here">最新消息</a></li>
+							<li><a href="#here"  onclick="$('.navToggle').click();">商品分類</a></li>
+							<li><a href="#here">熱門話題</a></li>
+							<li><a href="https://www.cosmed.com.tw/eBook/books/index.aspx?id=98"  target='_blank' onclick="logEvent('click', 'menu', '線上DM');">線上DM</a></li>
+							<li><a href="/contact.aspx"  onclick="logEvent('click', 'menu', '客服專區');">客服專區</a></li>
+							<li><a href="https://www.cosmed.com.tw/news_detail.aspx?id=1848"  target='_blank' onclick="logEvent('click', 'menu', '康是美藥局');">康是美藥局</a></li>
+</ul>
+                            
+					</div>
+				</div>
+				<!-- 手機版選單 dropmenu -->
+				<div class="mainmenu_dropmenu-box">
+					<div class="mainmenu_dropmenu_header">
+						<!-- logo -->
+						<h1><a href="">康是美</a></h1>
+						<!-- close -->
+						<div class="mainmenu_dropmenu_close"><span></span></div>
+					</div>
+					<ul id="_ctrl_0_ulMobileMenu2" class="mainmenu_dropmenu-block">						<li> 
+							<a href="#here">最新消息</a> 
+							<!-- 第二層選單 --> 
+							<ul class="mainmenu_dropmenu_l2"> 
+								<li><a href="/news.aspx?c=1"  >全部活動</a></li> 
+								<li><a href="/news.aspx?c=1"  >門市活動</a></li> 
+								<li><a href="/news.aspx?c=2"  >會員活動</a></li> 
+								<li><a href="/news.aspx?c=3"  >網購專屬活動</a></li> 
+							</ul> 
+						</li> 
+						</li> 
+						<li> 
+							<a href="#here">商品分類</a> 
+							<!-- 第二層選單 --> 
+							<ul class="mainmenu_dropmenu_l2"> 
+							</ul> 
+						</li> 
+						<li> 
+							<a href="#here">熱門話題</a> 
+							<!-- 第二層選單 --> 
+							<ul class="mainmenu_dropmenu_l2"> 
+								<li><a href="/hottopic.aspx?c=1"  >活動推薦</a></li> 
+								<li><a href="/hottopic.aspx?c=2"  >達人開箱</a></li> 
+								<li><a href="/hottopic.aspx?c=3"  >影音分享</a></li> 
+								<li><a href="/hottopic.aspx?c=4"  >健康知識</a></li> 
+							</ul> 
+						</li> 
+						</li> 
+						<li> 
+<a href="https://www.cosmed.com.tw/eBook/books/index.aspx?id=98"  target='_blank' onclick="logEvent('click', 'menu', '線上DM');">線上DM</a>						</li> 
+						<li> 
+<a href="/contact.aspx"  onclick="logEvent('click', 'menu', '客服專區');">客服專區</a>						</li> 
+						<li> 
+<a href="https://www.cosmed.com.tw/news_detail.aspx?id=1848"  target='_blank' onclick="logEvent('click', 'menu', '康是美藥局');">康是美藥局</a>						</li> 
+</ul>
+				</div>
+
+                <!--  ====================================================================================  -->
+
+
+				<!-- PC版主選單 -->
+				<ul id="_ctrl_0_ulPCMenu" class="mainmenu-box"><li>
+<a href='#here'>最新消息</a>
+<div class="submenu-box">
+							<div class="submenu_l2-box" style="display: flex;"> 
+								<ul class="submenu_l2"> 
+									<li><a href="/news.aspx?c=1"  >全部活動</a></li> 
+									<li><a href="/news.aspx?c=1"  >門市活動</a></li> 
+									<li><a href="/news.aspx?c=2"  >會員活動</a></li> 
+									<li><a href="/news.aspx?c=3"  >網購專屬活動</a></li> 
+								</ul> 
+							</div> 
+</div>
+</li><li>
+<a href='#here'>商品分類</a>
+			<!-- PC 下拉選單 --> 
+						<div class="submenu-box" style="width:750px; overflow:hidden;">
+							<div id="menu_lv1" class="submenu_l2-box" style="display: flex;">
+							</div>
+                            <!-- layer 2 -->
+							<div class="submenu_l3-box" style="display: none; position:absolute; top:0px;left:0px; ">
+								<ul class="submenu_l3" style="width:250px;visibility:hidden ;">
+								</ul>
+								<div class="submenu_l3_list-box" style="width:500px;">
+									<!-- 關閉 -->
+									<div class="btn_close"><i class="lnr lnr-cross"></i></div>
+									<!-- 分頁 -->
+									<ul class="submenu_l3_page-box" id="Lv2Paging">
+										<li class="submenu_l3_page_prev"><i class="lnr lnr-chevron-left"></i></li>
+										<li>1 /2</li>
+										<li class="submenu_l3_page_next"><i class="lnr lnr-chevron-right"></i></li>
+									</ul>
+									<div class="submenu_l3_list-block" id="menu_lv2">
+									</div>
+								</div>
+							</div>
+						</div>
+</li><li>
+<a href='#here'>熱門話題</a>
+<div class="submenu-box">
+							<div class="submenu_l2-box" style="display: flex;"> 
+								<ul class="submenu_l2"> 
+									<li><a href="/hottopic.aspx?c=1"  >活動推薦</a></li> 
+									<li><a href="/hottopic.aspx?c=2"  >達人開箱</a></li> 
+									<li><a href="/hottopic.aspx?c=3"  >影音分享</a></li> 
+									<li><a href="/hottopic.aspx?c=4"  >健康知識</a></li> 
+								</ul> 
+							</div> 
+</div>
+</li><li>
+<a href="https://www.cosmed.com.tw/eBook/books/index.aspx?id=98"  target='_blank' onclick="logEvent('click', 'menu', '線上DM');">線上DM</a></li><li>
+<a href="/contact.aspx"  onclick="logEvent('click', 'menu', '客服專區');">客服專區</a></li><li>
+<a href="https://www.cosmed.com.tw/news_detail.aspx?id=1848"  target='_blank' onclick="logEvent('click', 'menu', '康是美藥局');">康是美藥局</a></li></ul>
+
+			</div>
+		</header>
+
+
+    <form method="post" action="./index.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="90059987" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div>
+    <div>
+        
+
+		<!-- kv -->
+		<section class="kv-container">
+			<div id="ContentPlaceHolder1_KeyVisual" class="kv-box"><div><a href="https://bmai.app/5s92t2"  onclick="logEvent('click', 'Homepage_KV', '1392:週週好給利');"><img src="/upload/kv/04150421.jpg" alt=""  title=""></a></div>
+<div><a href="https://www.cosmed.com.tw/news_detail.aspx?id=2254"  onclick="logEvent('click', 'Homepage_KV', '1393:卡友集合享好康');"><img src="/upload/kv/040301.jpg" alt=""  title=""></a></div>
+<div><a href="https://bmai.app/5shway"  target="_blank"  onclick="logEvent('click', 'Homepage_KV', '1400:【LOVE MOM】蠟筆小新整合(已完成)');"><img src="/upload/kv/2024_05_b7.jpg" alt=""  title=""></a></div>
+<div><a href="https://bmai.app/5shwnd"  target="_blank"  onclick="logEvent('click', 'Homepage_KV', '1399:【LOVE MOM】臉部保養滿$1000送$200');"><img src="/upload/kv/2024_05_b8.jpg" alt=""  title=""></a></div>
+<div><a href="https://bmai.app/5shx9z"  target="_blank"  onclick="logEvent('click', 'Homepage_KV', '1398:【LOVE MOM】醫美指定防曬滿$500送$50');"><img src="/upload/kv/2024_05_b9.jpg" alt=""  title=""></a></div>
+<div><a href="https://www.cosmed.com.tw/news_detail.aspx?id=2011	"  target="_blank"  onclick="logEvent('click', 'Homepage_KV', '1105:媽媽手冊');"><img src="/upload/kv/041601.png" alt=""  title=""></a></div>
+<div><a href="https://www.cosmed.com.tw/news_detail.aspx?id=1848"  target="_blank"  onclick="logEvent('click', 'Homepage_KV', '1077:康是美藥局');"><img src="/upload/kv/%e8%97%a5%e5%b1%80%e5%ae%98%e7%b6%b2BANNER-1098X606-01.jpg" alt=""  title=""></a></div>
+<div><a href="https://bit.ly/3JiOLig"  target="_blank"  onclick="logEvent('click', 'Homepage_KV', '1387:Love Mom');"><img src="/upload/kv/041703.jpg" alt=""  title=""></a></div>
+<div><a href="https://bit.ly/3JimAjF"  target="_blank"  onclick="logEvent('click', 'Homepage_KV', '1326:熱銷排行榜');"><img src="/upload/kv/041704.jpg" alt=""  title=""></a></div>
+<div><a href="https://bit.ly/3W2JVx8"  target="_blank"  onclick="logEvent('click', 'Homepage_KV', '1127:MAC');"><img src="/upload/kv/BN3_MAC%e5%b0%8e%e6%b5%81_1098x606.jpg" alt=""  title=""></a></div>
+<div><a href="https://bit.ly/3W08hYp"  target="_blank"  onclick="logEvent('click', 'Homepage_KV', '1126:BOBBI BROWN');"><img src="/upload/kv/BN2_BB%e6%b2%b9%e7%94%b0_1098x606.jpg" alt=""  title=""></a></div>
+<div><a href="https://lihi2.com/2jgXN"  target="_blank"  onclick="logEvent('click', 'Homepage_KV', '1390:4月OP點數');"><img src="/upload/kv/04010101.jpg" alt=""  title=""></a></div>
+<div><a href="https://lihi2.com/SxVLh"  target="_blank"  onclick="logEvent('click', 'Homepage_KV', '1389:0418 88折');"><img src="/upload/kv/041801.jpg" alt=""  title=""></a></div>
+<div><a href="https://lihi2.com/pjgxw"  target="_blank"  onclick="logEvent('click', 'Homepage_KV', '1333:寵媽購物節');"><img src="/upload/kv/040902.jpg" alt=""  title=""></a></div>
+</div>
+		</section>
+
+		<!-- promotion -->
+		<section class="promotion-container">
+			<div class="promotion-box" id="PromotionSection">	
+				<ul class="promotion_nav">
+                    <!--
+					<li id="tab01" class="active"><a href="#tab01">換季搶先購</a></li>
+					<li id="tab02"><a href="#tab02">新品速報</a></li>
+					<li id="tab03"><a href="#tab03">彩妝周年慶</a></li>
+					<li id="tab04"><a href="#tab04">熱銷推薦商品</a></li>
+                    -->
+				</ul>
+				<div class="promotion_product-box">
+                    
+				</div>
+			</div>
+		</section>
+
+		<!-- new -->
+		<section class="new-container">
+			<h3>NEWS</h3>
+			<div id="ContentPlaceHolder1_newsSection" class="new-box">
+   <div>
+		<div class="new_img"><img src="/upload/news/1252/202204檔防詐騙576.jpg" alt=""></div>
+		<div class="new_main-block">
+			<div class="new_date">2023-01-01</div>
+			<div class="new_txt">防詐騙貼心提醒</div>
+		</div>
+		<a href="news_detail.aspx?id=1252"   onclick="logEvent('click', 'Homepage_News', '1252:防詐騙貼心提醒');"></a>
+	</div>
+   <div>
+		<div class="new_img"><img src="/upload/news/2318/576x480-0223.jpg" alt=""></div>
+		<div class="new_main-block">
+			<div class="new_date">2024-02-22</div>
+			<div class="new_txt">【中獎公告】2024年康是美新春福袋/福箱</div>
+		</div>
+		<a href="news_detail.aspx?id=2318"   onclick="logEvent('click', 'Homepage_News', '2318:【中獎公告】2024年康是美新春福袋/福箱');"></a>
+	</div>
+   <div>
+		<div class="new_img"><img src="/upload/news/1848/藥局官網BANNER-1098X606-01 (2).jpg" alt=""></div>
+		<div class="new_main-block">
+			<div class="new_date">2023-01-06</div>
+			<div class="new_txt">康是美藥局處方箋領藥服務</div>
+		</div>
+		<a href="news_detail.aspx?id=1848"   onclick="logEvent('click', 'Homepage_News', '1848:康是美藥局處方箋領藥服務');"></a>
+	</div>
+   <div>
+		<div class="new_img"><img src="/upload/news/1571/人才招募.jpg" alt=""></div>
+		<div class="new_main-block">
+			<div class="new_date">2022-04-11</div>
+			<div class="new_txt">全台營運人才招募中！</div>
+		</div>
+		<a href="https://www.104.com.tw/job/7lj8w?jobsource=checkc"   onclick="logEvent('click', 'Homepage_News', '1571:全台營運人才招募中！');"></a>
+	</div>
+   <div>
+		<div class="new_img"><img src="/upload/news/1529/康是美藥局徵才-576x480.jpg" alt=""></div>
+		<div class="new_main-block">
+			<div class="new_date">2022-02-07</div>
+			<div class="new_txt">【康是美藥局徵才】	</div>
+		</div>
+		<a href="https://www.104.com.tw/job/7iom0?jobsource=checkc."   onclick="logEvent('click', 'Homepage_News', '1529:【康是美藥局徵才】	');"></a>
+	</div>
+   <div>
+		<div class="new_img"><img src="/upload/news/2360/banner02.jpg" alt=""></div>
+		<div class="new_main-block">
+			<div class="new_date">2024-04-17</div>
+			<div class="new_txt">4/17-5/16【LINE好友專屬優惠】</div>
+		</div>
+		<a href="news_detail.aspx?id=2360"   onclick="logEvent('click', 'Homepage_News', '2360:4/17-5/16【LINE好友專屬優惠】');"></a>
+	</div>
+   <div>
+		<div class="new_img"><img src="/upload/news/2359/banner03.jpg" alt=""></div>
+		<div class="new_main-block">
+			<div class="new_date">2024-04-17</div>
+			<div class="new_txt">4/17-5/16【OPENPOINT點數享優惠】</div>
+		</div>
+		<a href="news_detail.aspx?id=2359"   onclick="logEvent('click', 'Homepage_News', '2359:4/17-5/16【OPENPOINT點數享優惠】');"></a>
+	</div>
+   <div>
+		<div class="new_img"><img src="/upload/news/2358/banner01.jpg" alt=""></div>
+		<div class="new_main-block">
+			<div class="new_date">2024-04-17</div>
+			<div class="new_txt">4/17-5/16【金卡專屬優惠】-實體門市限定</div>
+		</div>
+		<a href="news_detail.aspx?id=2358"   onclick="logEvent('click', 'Homepage_News', '2358:4/17-5/16【金卡專屬優惠】-實體門市限定');"></a>
+	</div>
+   <div>
+		<div class="new_img"><img src="/upload/news/2356/2024_05_mb1.jpg" alt=""></div>
+		<div class="new_main-block">
+			<div class="new_date">2024-04-17</div>
+			<div class="new_txt">【DOVE】冰淇淋磨砂膏</div>
+		</div>
+		<a href="https://bmai.app/5shxqx"  target='_blank'   onclick="logEvent('click', 'Homepage_News', '2356:【DOVE】冰淇淋磨砂膏');"></a>
+	</div>
+</div>
+		</section>
+
+		<!-- ad -->
+		<section class="ad-container">
+			<div id="ContentPlaceHolder1_bannerSection" class="banner-box">
+<div><a href="https://www.cosmed.com.tw/news_detail.aspx?id=2254"  target="_blank"><img src="/upload/banner/2024easy.jpg" alt=""  title=""    onclick="logEvent('click', 'Homepage_Banner', '1322:週一悠遊卡');"></a></div>
+<div><a href="https://www.cosmed.com.tw/news_detail.aspx?id=2254"  target="_blank"><img src="/upload/banner/2024ctbc.jpg" alt=""  title=""    onclick="logEvent('click', 'Homepage_Banner', '1321:週二中信');"></a></div>
+<div><a href="https://www.cosmed.com.tw/news_detail.aspx?id=2254"  target="_blank"><img src="/upload/banner/2024UB.jpg" alt=""  title=""    onclick="logEvent('click', 'Homepage_Banner', '1320:週三聯邦');"></a></div>
+<div><a href="https://www.cosmed.com.tw/news_detail.aspx?id=2254"  target="_blank"><img src="/upload/banner/2024DBS.jpg" alt=""  title=""    onclick="logEvent('click', 'Homepage_Banner', '1319:週四星展');"></a></div>
+<div><a href="https://www.cosmed.com.tw/news_detail.aspx?id=2254"  target="_blank"><img src="/upload/banner/2024one.jpg" alt=""  title=""    onclick="logEvent('click', 'Homepage_Banner', '1324:週五第一');"></a></div>
+<div><a href="https://www.cosmed.com.tw/news_detail.aspx?id=2254"  target="_blank"><img src="/upload/banner/2024cube.jpg" alt=""  title=""    onclick="logEvent('click', 'Homepage_Banner', '1318:週六國泰世華');"></a></div>
+<div><a href="https://www.cosmed.com.tw/news_detail.aspx?id=2254"  target="_blank"><img src="/upload/banner/2024top-icash680X320.jpg" alt=""  title=""    onclick="logEvent('click', 'Homepage_Banner', '1395:icash Pay');"></a></div>
+<div><a href="https://reurl.cc/13OeaV" ><img src="/upload/banner/20240202.png" alt=""  title=""    onclick="logEvent('click', 'Homepage_Banner', '1357:Pi拍錢包綁定中信allme卡支付筆筆最高享6%');"></a></div>
+<div><a href="https://www.piapp.com.tw/picard/" ><img src="/upload/banner/0403.jpg" alt=""  title=""    onclick="logEvent('click', 'Homepage_Banner', '1394:綁定玉山pi信用卡');"></a></div>
+<div><a href="https://www.bankchb.com/frontend/bonusDetail.jsp?id=2794" ><img src="/upload/banner/04039999.jpg" alt=""  title=""    onclick="logEvent('click', 'Homepage_Banner', '1356:彰銀馬偕卡');"></a></div>
+</div>
+			<div class="ad-box">
+				<div id="ContentPlaceHolder1_divDMBanner"><a href="https://www.cosmed.com.tw/eBook/books/index.aspx?id=98"  target="_blank"  onclick="logEvent('click', 'Homepage_DM_Banner', '1397:2024_05_lovemon');"><img src="/upload/banner/2024_05.jpg" alt=""  title=""></a></div>
+			</div>
+		</section>
+
+		<!-- app -->
+		<section class="app-container">	
+			<div class="app-box">
+				<div class="app-block">
+					<div class="app_icon"><img src="images/app_member.png" alt=""></div>
+					<div class="app_link">
+						<p class="tit">康是美會員  APP下載</p>
+						<ul class="app_link_btn">
+							<li id="App1_iOS"><a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=891609371&mt=8" target="_blank"><img src="images/btn_applestore.png" alt=""></a></li>
+							<li id="App1_Android"><a href="https://play.google.com/store/apps/details?id=tw.com.cosmed.shop" target="_blank"><img src="images/btn_googleplay.png" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="app-block">
+					<div class="app_link">
+						<p class="tit">康是美網購 eShop  APP下載</p>
+						<ul class="app_link_btn">
+							<li id="App2_iOS"><a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1108323834&mt=8" target="_blank"><img src="images/btn_applestore.png" alt=""></a></li>
+							<li id="App2_Android"><a href="https://play.google.com/store/apps/details?id=com.nineyi.shop.s002131" target="_blank"><img src="images/btn_googleplay.png" alt=""></a></li>
+						</ul>
+					</div>
+					<div class="app_icon"><img src="images/app_eshop.png" alt=""></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- online shop -->
+		<section class="onlineshop-container">
+			<div class="onlineshop-box">
+				<h3>Online Shop</h3>
+				<ul class="onlineshop-block">
+					<li><a href="https://goo.gl/MoXVGd" target="_blank"  onclick="logEvent('click','Homepage_EC','eShop');"><p>康是美網購</p><p>eShop</p></a></li>
+                                        <li><a href="https://shopee.tw/cosmed.tw" target="_blank" onclick="logEvent('click','Homepage_EC','Shopee');">蝦皮商城</a></li>
+                    <li><a href="https://shop.7-11.com.tw/shop/rui001.faces" target="_blank" onclick="logEvent('click','Homepage_EC','7-ELEVEN');"><p>7-ELEVEN<br>線上購物中心</p></a></li>
+					<!-- <li><a href="https://tw.mall.yahoo.com/store/cosmed" target="_blank"  onclick="logEvent('click','Homepage_EC','Yahoo');"><p>Yahoo</p><p>雅虎超級商城</p></a></li> -->
+				</ul>
+			</div>
+		</section>
+
+
+
+   
+		<!-- loading -->
+		<div class="loading-container">
+		    <!-- 動圖 -->
+			<div class="cssload-fond">
+				<div class="cssload-container-general">
+					<div class="cssload-internal"><div class="cssload-ballcolor cssload-ball_1"> </div></div>
+					<div class="cssload-internal"><div class="cssload-ballcolor cssload-ball_2"> </div></div>
+					<div class="cssload-internal"><div class="cssload-ballcolor cssload-ball_3"> </div></div>
+					<div class="cssload-internal"><div class="cssload-ballcolor cssload-ball_4"> </div></div>
+				</div>
+			</div>   
+		</div>
+
+        
+            
+
+
+    </div>
+    </form>
+
+
+		<!-- footer -->
+		<footer>
+			<div class="footer-container">
+				<ul class="footer_socialmedia">
+					<li><a href="https://www.facebook.com/cococo.cosmed/" target="_blank">facebook</a></li>
+					<!-- <li><a href="https://line.me/R/ti/p/nPMpvGuf8Y" target="_blank">line</a></li> -->
+					<li><a href="https://lin.ee/3hdK6YO"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" height="36" border="0"></a></li>
+					<li><a href="https://www.instagram.com/cosmedtw/" target="_blank">instagram</a></li>
+					<li><a href="https://www.youtube.com/user/cosmedcosmed" target="_blank">youtube</a></li>
+				</ul>
+				<ul class="footer_nav">
+					<li><a href="https://shop.cosmed.com.tw/Article/Detail/68640" target="_blank">退換貨原則</a></li>
+					<li><a href="https://shop.cosmed.com.tw/v2/Official/BrandStory" target="_blank">認識康是美</a></li>
+					<li><a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=5e60426e5e3640215a323c1d1d1d1d5f2443a363189j01&jobsource=checkc" target="_blank">人才招募</a></li>
+					<!-- <li><a href="https://www.cosmed.com.tw/news_detail.aspx?id=1069" target="_blank">個人資料保護法聲明</a></li> -->
+				</ul>
+				<div class="footer_copyright">	
+					<p>COSMED 統一生活事業股份有限公司版權所有</p>
+					<p>President Drugstore Business Corp. All Rights Reserved.</p>
+					<p>台北市內湖區內湖路一段120巷15弄25號4樓．<span>消費者服務專線：0800-005-665</span></p>
+					<p>客服時間：週一~週五 上午09:00-12:00 下午13:00-17:30 <span>例假日除外</span></p>
+				</div>
+			</div>
+		</footer>
+
+    		<!-- goto -->
+		<ul class="goto-box">
+			<div style="position:relative"><div class="fb-customerchat" page_id="188974237800490" ref=""  minimized="true" greeting_dialog_display="hide"></div></div>
+			<li class="gototop"></li>
+		</ul>
+
+</body>
+</html>
